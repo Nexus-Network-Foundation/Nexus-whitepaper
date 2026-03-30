@@ -23,3 +23,11 @@ The full architectural blueprint (Whitepaper v1.0) is available in this reposito
 
 🤝 Join the Collective
 No Résumés. Proof of Work only. Submit a technical critique of the whitepaper, or a Pull Request, to `yizhenxianshi@gmail.com` with the subject `[Core Builder Application]`.
+
+FAQ / Addressing Common Criticisms
+
+Q. Doesn't splitting inference across a P2P network cause massive latency? A. No. Nexus does *not* split a single inference across multiple nodes (which would be latency suicide). We use a 99/1 Optimistic Model. The actual inference executes locally on a single edge node for maximum speed. The P2P network only handles the asynchronous verification via ZK-SNARKs and economic slashing. 
+
+
+Q. Did you use AI to write this whitepaper?
+A. I used AI as a translation and formatting tool. I am a 15-year-old from Japan, and while the Nexus architecture, the thermodynamic concepts, and the math (like `S = n * R`) are 100% my original design, my English isn't perfect. I used AI to help structure my thoughts into a readable academic format. If you find the prose unnatural, I apologize. But I ask you to focus on the architecture itself: please review the Entropy-based Routing (Section 3.2) and the ZK slashing mechanics. I am looking for engineers to help me find flaws in the math, not the grammar.
