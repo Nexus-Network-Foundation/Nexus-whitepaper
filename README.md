@@ -19,7 +19,8 @@ We are currently solving the following hurdles. If you have the insight to solve
 
  📄 Read the Blueprint
 The full architectural blueprint (Whitepaper v1.0) is available in this repository. 
-[👉 Read the Nexus Network Whitepaper (PDF)](Nexus_Network_White%20paper_v1.0.pdf)
+[tet english ver whitepaper.pdf](https://github.com/user-attachments/files/27178540/tet.english.ver.whitepaper.pdf)
+
 
 🤝 Join the Collective
 No Résumés. Proof of Work only. Submit a technical critique of the whitepaper, or a Pull Request, to `yizhenxianshi@gmail.com` with the subject `[Core Builder Application]`.
